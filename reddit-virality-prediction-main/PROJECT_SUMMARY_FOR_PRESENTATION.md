@@ -1,4 +1,4 @@
-# Project Summary for Presentation
+# Project Summary
 
 This project predicts Reddit post virality using real Reddit data and Natural Language Processing.
 

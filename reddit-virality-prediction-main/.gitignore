@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+
+# Large generated artifacts
+data/raw/*.csv
+data/processed/*.csv
+outputs/models/*.model
+outputs/models/*.joblib
+
+# OS
+.DS_Store
+Thumbs.db

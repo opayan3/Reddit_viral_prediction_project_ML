@@ -167,12 +167,4 @@ viral = 0 otherwise
 
 This definition avoids comparing small subreddits directly against very large subreddits.
 
-## Suggested explanation for presentation
 
-This project extends a Reddit virality classifier by adding a real-data text embedding pipeline. Reddit posts are collected through public JSON API endpoints. The post title and body are cleaned and then converted into dense numerical representations using Doc2Vec. These vectors are visualized with t-SNE to evaluate whether posts with similar topics naturally form clusters. The same embeddings are then used as machine learning features for predicting viral posts.
-
-## Reproducibility notes
-
-- Reddit content changes constantly, so results may vary depending on the day and time the data is collected.
-- If Reddit temporarily blocks a request, wait a few minutes and run again.
-- The script uses a custom User-Agent and small delays between requests to avoid excessive traffic.
